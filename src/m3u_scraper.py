@@ -37,23 +37,9 @@ class Channel:
     local_logo_path: str = ""
     
     def to_m3u_line(self, base_logo_url: str = "") -> str:
-        """Convert channel to M3U format line"""
+        """Convert channel to simplified M3U format line (only tvg-logo and name)"""
         logo = f"{base_logo_url}/{self.local_logo_path}" if self.local_logo_path and base_logo_url else self.logo_url
-        
-        extinf_parts = ['#EXTINF:-1']
-        
-        if self.tvg_id:
-            extinf_parts.append(f'tvg-id="{self.tvg_id}"')
-        if self.tvg_name:
-            extinf_parts.append(f'tvg-name="{self.tvg_name}"')
-        if logo:
-            extinf_parts.append(f'tvg-logo="{logo}"')
-        if self.group:
-            extinf_parts.append(f'group-title="{self.group}"')
-            
-        extinf_parts.append(self.name)
-        
-        return f"{' '.join(extinf_parts)}\n{self.stream_url}"
+        return f'#EXTINF:-1 tvg-logo="{logo}", {self.name}\n{self.stream_url}'
 
 
 class M3UScraper:
@@ -277,22 +263,12 @@ class M3UScraper:
         self.logger.info(f"Downloaded {success_count}/{len(tasks)} logos successfully")
     
     def generate_m3u_file(self, channels: List[Channel]) -> str:
-        """Generate clean M3U file content"""
+        """Generate simplified M3U file content (only #EXTM3U and channel lines)"""
         self.logger.info("Generating M3U file...")
-        
         base_logo_url = f"https://raw.githubusercontent.com/{self.config['github_repo']}/main/logos"
-        
-        lines = [
-            '#EXTM3U',
-            f'# SportKu Auto Scraper - {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}',
-            f'# Total channels: {len(channels)}',
-            ''
-        ]
-        
+        lines = ['#EXTM3U']
         for channel in channels:
             lines.append(channel.to_m3u_line(base_logo_url))
-            lines.append('')
-        
         self.logger.info(f"Generated M3U with {len(channels)} channels")
         return '\n'.join(lines)
     
