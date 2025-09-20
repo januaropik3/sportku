@@ -71,6 +71,7 @@ jobs:
       run: |
         git add .
         git commit -m "� Auto update SportKu M3U - $(date '+%Y-%m-%d %H:%M UTC')" || exit 0
+        git pull --rebase origin main || true
         git push
         
     - name: 📋 Update Status
