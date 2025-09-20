@@ -1,0 +1,10 @@
+{
+  "source_url": "https://raw.githubusercontent.com/abusaeeidx/CricHd-playlists-Auto-Update-permanent/refs/heads/main/ALL.m3u",
+  "github_repo": "januaropik3/sportku",
+  "output_filename": "sportku.m3u",
+  "max_concurrent_downloads": 10,
+  "request_timeout": 30,
+  "retry_attempts": 3,
+  "logo_formats": [".png", ".jpg", ".jpeg", ".gif", ".webp"],
+  "user_agent": "SportKu-Scraper/1.0"
+}

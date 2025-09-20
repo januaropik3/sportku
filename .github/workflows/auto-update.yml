@@ -1,0 +1,89 @@
+name: 🚀 SportKu Auto Update
+
+on:
+  schedule:
+    # Run every day at 12:00 AM UTC
+    - cron: '0 0 * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      force_update:
+        description: 'Force update'
+        required: false
+        default: 'false'
+
+jobs:
+  update-playlist:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:
+    - name: 📥 Checkout Repository
+      uses: actions/checkout@v4
+      
+    - name: 🐍 Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: 📦 Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: 🔧 Configure Git
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "SportKu Auto Scraper"
+        
+    - name: 🚀 Run SportKu Scraper
+      run: |
+        cd src
+        python m3u_scraper.py
+        
+    - name: 🔍 Check for Changes
+      id: changes
+      run: |
+        if git diff --quiet; then
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: 📊 Generate Stats
+      if: steps.changes.outputs.has_changes == 'true'
+      id: stats
+      run: |
+        if [ -f "output/stats.json" ]; then
+          TOTAL=$(python -c "import json; print(json.load(open('output/stats.json'))['total_channels'])" 2>/dev/null || echo "0")
+          LOGOS=$(python -c "import json; print(json.load(open('output/stats.json'))['channels_with_logos'])" 2>/dev/null || echo "0")
+          COVERAGE=$(python -c "import json; print(json.load(open('output/stats.json'))['logo_coverage_percent'])" 2>/dev/null || echo "0")
+          echo "total_channels=$TOTAL" >> $GITHUB_OUTPUT
+          echo "logo_count=$LOGOS" >> $GITHUB_OUTPUT
+          echo "coverage=$COVERAGE" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: 💾 Commit and Push Changes
+      if: steps.changes.outputs.has_changes == 'true' || github.event.inputs.force_update == 'true'
+      run: |
+        git add .
+        git commit -m "� Auto update SportKu M3U - $(date '+%Y-%m-%d %H:%M UTC')" || exit 0
+        git push
+        
+    - name: 📋 Update Status
+      if: always()
+      run: |
+        STATUS="✅ Success"
+        if [ "${{ job.status }}" != "success" ]; then
+          STATUS="❌ Failed"
+        fi
+        
+        TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S UTC')
+        echo "Last Update: $STATUS - $TIMESTAMP" > .github/status.txt
+        
+        git add .github/status.txt 2>/dev/null || true
+        git diff --staged --quiet || git commit -m "📊 Update status: $STATUS" 2>/dev/null || true
+        git push 2>/dev/null || true

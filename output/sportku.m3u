@@ -1,0 +1,129 @@
+#EXTM3U
+# SportKu Auto Scraper - 2025-09-21 03:41:09
+# Total channels: 42
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/aad2aa012a09.png" group-title="General" Star Sports 1
+https://d11.epicquesthero.com:1686/hls/star1in.m3u8?md5=jrsMmFFRJkid04LoKMifng&expires=1758407962
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/ce5d1f068572.png" group-title="General" Star Sports 1 Hindi
+https://d15.epicquesthero.com:1686/hls/starhindi.m3u8?md5=Ap4zpDCEbntwLrcLqPX0pA&expires=1758407962
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/8b14113fd101.png" group-title="General" PTV Sports
+https://d14.epicquesthero.com:1686/hls/ptvpk.m3u8?md5=vMapUjHaHqCx3Kbw6S4_Sw&expires=1758407962
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/e9ba868164b0.png" group-title="General" Willow HD
+https://d14.epicquesthero.com:1686/hls/willowusa.m3u8?md5=QUvQjcMC8b7XVMz2noQCPA&expires=1758407963
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/2edc0b2d1072.png" group-title="General" Willow HD 2
+https://d11.epicquesthero.com:1686/hls/willowextra.m3u8?md5=lgFysiaTJ27wjjVo1JaXOg&expires=1758407963
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/f296cf81bbd4.png" group-title="General" Ten Sports
+https://d14.epicquesthero.com:1686/hls/tenspk.m3u8?md5=EsK6m-x2koWY9FypTyX38Q&expires=1758407963
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/3b86dcfb319e.png" group-title="General" A Sports HD
+https://d13.epicquesthero.com:1686/hls/asportshd.m3u8?md5=cNzvw_b3d8busYNXGKrLxw&expires=1758407963
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/38e60cfdd86f.png" group-title="General" Sky Sports Cricket
+https://d11.epicquesthero.com:1686/hls/skyscric.m3u8?md5=p-JQ4eyOskJnGtuM2SySEg&expires=1758407963
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/377fc113f0ae.png" group-title="General" Sky Sports Main Event
+https://d11.epicquesthero.com:1686/hls/skysme.m3u8?md5=j6-audgjyQwF9opqM-SngQ&expires=1758407963
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/1fe3554f97d3.png" group-title="General" TNT 1
+https://d14.epicquesthero.com:1686/hls/bbtsp1.m3u8?md5=qL0T95OlHURtB03XBMKjQA&expires=1758407963
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/1fe3554f97d3.png" group-title="General" TNT 2
+https://d15.epicquesthero.com:1686/hls/bbtsp2.m3u8?md5=7gLUGsBBhIYZpPoQ_0HYmQ&expires=1758407963
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/1fe3554f97d3.png" group-title="General" TNT 3
+https://d15.epicquesthero.com:1686/hls/bbtsp3.m3u8?md5=wMA1kfrgS2DZXOxaunkX1w&expires=1758407963
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/1fe3554f97d3.png" group-title="General" TNT 4
+https://d12.epicquesthero.com:1686/hls/bbtespn.m3u8?md5=jaG3UX1L-tB-_lm1vsOk0g&expires=1758407964
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/81eac73e77d0.png" group-title="General" Sky Sports 1
+https://d13.epicquesthero.com:1686/hls/sky1nz.m3u8?md5=ky1_KEOipnS9gjb4tnXEjQ&expires=1758407964
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/81eac73e77d0.png" group-title="General" Sky Sports 2
+https://d12.epicquesthero.com:1686/hls/sky2nz.m3u8?md5=8b1_l4ZU1DS_yFc7FCdfOA&expires=1758407964
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/81eac73e77d0.png" group-title="General" Sky Sports 3
+https://d14.epicquesthero.com:1686/hls/sky3nz.m3u8?md5=dUFNCPvRil87usA1uYvnvg&expires=1758407964
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/81eac73e77d0.png" group-title="General" Sky Sports 4
+https://d11.epicquesthero.com:1686/hls/sky4nz.m3u8?md5=Sa9C5dvBMKF3kUq4SARN_w&expires=1758407964
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/81eac73e77d0.png" group-title="General" Sky Sports 5
+https://d13.epicquesthero.com:1686/hls/sky5nz.m3u8?md5=5gsW85y6LOEvdIPJpjtegA&expires=1758407964
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/81eac73e77d0.png" group-title="General" Sky Sports 6
+https://d13.epicquesthero.com:1686/hls/sky6nz.m3u8?md5=D-g5HJmtbxMirBarrKjd7Q&expires=1758407964
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/81eac73e77d0.png" group-title="General" Sky Sports 7
+https://d11.epicquesthero.com:1686/hls/sky7nz.m3u8?md5=vMk2Dln_5nSMSEPa_WNHYw&expires=1758407964
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/81eac73e77d0.png" group-title="General" Sky Sports 8
+https://d13.epicquesthero.com:1686/hls/sky8nz.m3u8?md5=k0-EMRIz_LHJhBO4B5wU1w&expires=1758407964
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/81eac73e77d0.png" group-title="General" Sky Sports 9
+https://d15.epicquesthero.com:1686/hls/sky9nz.m3u8?md5=6aFSO6jQxrpCz4ZXKCU7xg&expires=1758407965
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/8af661f64f10.png" group-title="General" Sky Cinema
+https://d14.epicquesthero.com:1686/hls/skysme.m3u8?md5=FQhcnVddRDYkXQmVmLLCxw&expires=1758407965
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/74db6f2d6df3.png" group-title="General" Sky Sports Action
+https://d11.epicquesthero.com:1686/hls/skysact.m3u8?md5=Zy22FQbv-UhNy4Gw3uQcjQ&expires=1758407965
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/018010e81cec.png" group-title="General" Sky Sports Golf
+https://d14.epicquesthero.com:1686/hls/skysgol.m3u8?md5=LTDujoi5asdBf6mK4crbsQ&expires=1758407965
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/3e9ee5ba798d.png" group-title="General" Sky Sports Premier League
+https://d13.epicquesthero.com:1686/hls/skysprem.m3u8?md5=OTi0XjTpkPEsHhb-hXoeiA&expires=1758407965
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/1f4fed884c38.png" group-title="General" Sky Sports Football
+https://d14.epicquesthero.com:1686/hls/skysfott.m3u8?md5=8rnLWsQwC-u1N-J9ar6ksg&expires=1758407965
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/e3de8243cec4.png" group-title="General" Sky Sports Plus
+https://d11.epicquesthero.com:1686/hls/skysare.m3u8?md5=t-HARfRCe8D-MPmJ1GdadQ&expires=1758407965
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/951b811349f3.png" group-title="General" Sky Sports F1
+https://d13.epicquesthero.com:1686/hls/skysfor1.m3u8?md5=eNU3I1gitsCdtwWrJtKGpw&expires=1758407965
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/5695e909a2b8.png" group-title="General" LaLiGA
+https://d13.epicquesthero.com:1686/hls/laligauk.m3u8?md5=M5LogrY7Iyf5FJLQrQNk2A&expires=1758407965
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/227f80cfebd6.png" group-title="General" Premier Sports 1
+https://d13.epicquesthero.com:1686/hls/premieruk.m3u8?md5=_9fXgQFQ3BJ42UguEn_skw&expires=1758407966
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/227f80cfebd6.png" group-title="General" Premier Sports 2
+https://d15.epicquesthero.com:1686/hls/hdchnl2.m3u8?md5=BSbEt7_ZWOaoY6bWjwvI5Q&expires=1758407966
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/da447f6de15a.png" group-title="General" Super Football
+https://d14.epicquesthero.com:1686/hls/superfotball.m3u8?md5=CrN-klSvF2vD0-oBVQTvhw&expires=1758407966
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/a14f89fe5b45.png" group-title="General" Super Premier League
+https://d15.epicquesthero.com:1686/hls/superpremier.m3u8?md5=yTkfHh9svGlSUqmBl8_wRQ&expires=1758407966
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/fcd060320070.png" group-title="General" Astro Cricket
+https://d11.epicquesthero.com:1686/hls/fox501.m3u8?md5=ZJpYqbkZS1lAbGrsayKA_w&expires=1758407966
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/e4b7e8bae359.png" group-title="General" ESPN 1
+https://d13.epicquesthero.com:1686/hls/espnusa.m3u8?md5=11uqyl97oeWeYQH99LNIBg&expires=1758407966
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/e4b7e8bae359.png" group-title="General" ESPN 2
+https://d15.epicquesthero.com:1686/hls/espn2.m3u8?md5=OJvs5xWhyVYf8JJhW8Y6MQ&expires=1758407966
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/1235d3b9ec30.png" group-title="General" Sky Sports Arena
+https://d12.epicquesthero.com:1686/hls/skysare.m3u8?md5=uGHDAGKmQXTFLpQxAzE04A&expires=1758407966
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/3203bf785e35.png" group-title="General" Sky Sports Mix
+https://d13.epicquesthero.com:1686/hls/skysmixx.m3u8?md5=sV0LhyETQGPmfhEm5cjYEg&expires=1758407966
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/cf45c49e24b8.png" group-title="General" Sky Sports Tennis
+https://d15.epicquesthero.com:1686/hls/skystennis.m3u8?md5=Yp5IXEUo7Z-66wg9JCW7Eg&expires=1758407967
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/0714d98aaec3.png" group-title="General" Fox Cricket 501 HD
+https://d13.epicquesthero.com:1686/hls/fox501.m3u8?md5=dmICfuVwFDeESDy_LPtzzA&expires=1758407967
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/januaropik3/sportku/main/logos/1e65e0dd9fd4.png" group-title="General" Sony Sports3
+https://d11.epicquesthero.com:1686/hls/ten1hd.m3u8?md5=bbTdbCxyGV26GFp1CBwSQA&expires=1758407967
