@@ -1,10 +1,10 @@
 {
-  "total_channels": 42,
-  "channels_with_logos": 42,
+  "total_channels": 40,
+  "channels_with_logos": 40,
   "logo_coverage_percent": 100.0,
   "groups": {
-    "General": 42
+    "General": 40
   },
-  "generated_at": "2025-09-30T01:21:01.422382",
+  "generated_at": "2025-10-01T01:28:16.248088",
   "source_url": "https://raw.githubusercontent.com/abusaeeidx/CricHd-playlists-Auto-Update-permanent/refs/heads/main/ALL.m3u"
 }
