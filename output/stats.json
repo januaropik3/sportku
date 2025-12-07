@@ -1,10 +1,10 @@
 {
-  "total_channels": 42,
-  "channels_with_logos": 42,
+  "total_channels": 1,
+  "channels_with_logos": 1,
   "logo_coverage_percent": 100.0,
   "groups": {
-    "General": 42
+    "By XFIREFLIX": 1
   },
-  "generated_at": "2025-10-24T01:19:03.436933",
+  "generated_at": "2025-12-07T01:44:15.013212",
   "source_url": "https://raw.githubusercontent.com/abusaeeidx/CricHd-playlists-Auto-Update-permanent/refs/heads/main/ALL.m3u"
 }
